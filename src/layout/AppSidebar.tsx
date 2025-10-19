@@ -326,7 +326,7 @@ const AppSidebar: React.FC = () => {
                   />
                 </span>
 
-                <span className="block mr-1 font-medium text-theme-sm">ANASCO GROUP</span>
+                <span className="block mr-1 font-medium text-theme-sm dark:text-white">ANASCO GROUP</span>
               </div>
             </>
           ) : (
