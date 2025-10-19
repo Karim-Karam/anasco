@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Badge from "../ui/badge/Badge";
-import { ArrowDownIcon, ArrowUpIcon, BoxIconLine, GroupIcon } from "@/icons";
+import { ArrowUpIcon } from "@/icons";
 import { statsCardsData } from '../../data/data'
 export const SecOne = () => {
   return (
@@ -10,9 +10,7 @@ export const SecOne = () => {
 
       {statsCardsData?.map((stat) => (
         <div key={stat.id} className="rounded-2xl flex-1 border border-[##e5ecf6] bg-[#e5ecf6] p-3 dark:border-gray-800 dark:bg-white/[0.03] md:p-6">
-          {/* <div className="flex items-center justify-center w-12 h-12 bg-gray-100 rounded-xl dark:bg-gray-800">
-          <GroupIcon className="text-gray-800 size-6 dark:text-white/90" />
-        </div> */}
+
 
           <div className="flex items-end justify-between mt-5">
             <div>
