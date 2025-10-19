@@ -335,7 +335,7 @@ const AppSidebar: React.FC = () => {
                 <Image
                   width={44}
                   height={44}
-                  src="/images/user/owner.jpg"
+                  src="/images/user/user-02.jpg"
                   alt="User"
                 />
               </span></div>
